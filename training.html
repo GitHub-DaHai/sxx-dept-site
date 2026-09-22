@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 竞赛梯队 · 三个月 Python 训练体系 · 数字与信息技术产业系</title>
+<meta name="description" content="数字与信息技术产业系人工智能竞赛梯队零基础学员三个月 Python 学习训练体系：四阶段十二周日程、四大模块实施细则、能力评估与免费平台清单。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f5bea'/%3E%3Ctext x='32' y='43' font-size='32' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3E%E6%95%B0%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/training.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-top">
+  <div class="shell">
+    <a class="brand" href="index.html">
+      <span class="logo">数信</span>
+      <span class="brand-text">
+        <strong>数字与信息技术产业系</strong>
+        <small>江西赣州技师学院</small>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="展开导航菜单" aria-expanded="false" aria-controls="siteNav">☰</button>
+    <nav class="site-nav" id="siteNav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="links.html">相关链接</a>
+      <a href="training.html" class="active">AI 训练体系</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="shell">
+    <p class="crumb"><a href="index.html">首页</a> / AI 训练体系</p>
+    <h1>人工智能竞赛梯队建设 · 零基础学员三个月 Python 学习训练体系</h1>
+    <p>四个阶段、十二周、工作日训练周末留白；配套四大模块实施细则、能力评估标准与常用平台清单，可直接用于梯队选拔与日常带训。</p>
+    <div class="hero-actions" style="margin-top:20px">
+      <button class="btn btn-solid btn-sm" id="printBtn" type="button">打印 / 存为 PDF</button>
+      <a class="btn btn-ghost btn-sm" href="links.html">查看常用平台清单</a>
+    </div>
+  </div>
+</div>
+
+<main id="main" class="shell">
+  <div class="layout-side">
+    <aside class="toc-side">
+<nav class="toc">
+  <h2>目 录</h2>
+  <ol>
+    <li><a href="#s0"><span class="num">00</span>设计前提与约束对策</a></li>
+    <li><a href="#s1"><span class="num">01</span>体系总览与每日节律</a></li>
+    <li><a href="#s2"><span class="num">02</span>四阶段训练体系（核心）</a></li>
+    <li><a href="#s3"><span class="num">03</span>十二周逐周执行日程</a></li>
+    <li><a href="#s4"><span class="num">04</span>四大模块实施细则</a></li>
+    <li><a href="#s5"><span class="num">05</span>能力评估与梯队选拔标准</a></li>
+    <li><a href="#s6"><span class="num">06</span>免费在线平台清单</a></li>
+    <li><a href="#s7"><span class="num">07</span>教师碎片时间操作手册</a></li>
+    <li><a href="#s8"><span class="num">08</span>风险预案与合规提醒</a></li>
+  </ol>
+</nav>
+    </aside>
+    <div class="doc-body">
+<section id="s0">
+  <h2 class="sec">00 · 设计前提与约束对策</h2>
+  <p class="sec-sub">先把"现实条件"写清楚，再决定"怎么教"，否则计划一定会停在纸面上。</p>
+
+  <div class="banner">
+    <div class="icon">休</div>
+    <div>
+      <h3>本版最重要的调整：周末完全空出来</h3>
+      <p>所有学习与训练集中在<strong>周一至周五</strong>；<strong>周六、周日不布置任何任务</strong>，不打卡、不交作业、不发通知。周末只做一件事：想练的同学自愿加练，但<strong>不加分、不排名、不记录</strong>。原因很简单——三个月的长周期里，节奏不断比强度大更重要，休息是训练计划的一部分。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">学员画像（起点假设）</h3>
+    <ul class="tight">
+      <li><strong>基础：</strong>零编程经验；具备基本电脑操作（打字、文件管理）；数学到初中水平即可起步。</li>
+      <li><strong>投入：</strong>周一至周四每天 <strong>1–1.5 小时</strong>；周五 <strong>1–1.5 小时</strong>（本周清账 + 实践/测评）。周末休息。</li>
+      <li><strong>总时长：</strong>12 周 × 5 个训练日 ≈ 60 个训练日，累计约 <strong>90–100 学时</strong>。</li>
+      <li><strong>题量：</strong>每天 1 题，12 周累计约 <strong>55–60 题</strong>（含错题重做与实际编码，编码量已足够）。</li>
+      <li><strong>目标：</strong>从"不会写代码"到"能独立完成一次数据采集—清洗—标注—训练—报告的完整闭环"，并进入竞赛备赛梯队。</li>
+      <li><strong>能力坐标：</strong>《人工智能训练师国家职业技能标准》（职业编码 <strong>4-04-05-05</strong>）中，五级/初级工培训参考学时 60 学时、四级/中级工 50 学时。本方案 90 学时已完整覆盖五级要求，并进入四级能力区间。赛项对接全国人工智能应用技术技能大赛"人工智能训练师 S"赛项（理论 20% + 实操 80%）。</li>
+    </ul>
+
+    <h3>四条硬约束 → 四条设计对策</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr><th style="width:21%">现实约束</th><th style="width:38%">造成的问题</th><th>本方案的对策</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>学员零基础<br>且易疲劳流失</strong></td>
+            <td>原"每天 2 题 + 周末加练"的强度过高，第 3–4 周即出现大面积掉队</td>
+            <td><strong>砍掉一半题量</strong>：每天只做 1 题，做完即收工；<strong>周末零任务</strong>；每周只保留 1 个"能给别人看"的小成果以维持成就感和动机。</td>
+          </tr>
+          <tr>
+            <td><strong>学校无学习平台</strong></td>
+            <td>没有课程发布、作业收取、进度统计的统一入口</td>
+            <td>用<strong>免费在线工具拼出一套"轻平台"</strong>：腾讯文档/问卷星管打卡与作业收集，Gitee 管代码，B 站/中国大学 MOOC 管课程，和鲸/百度 AI Studio 管实训。零采购、零部署。</td>
+          </tr>
+          <tr>
+            <td><strong>指导老师只有碎片时间</strong></td>
+            <td>无法长时间集中授课、无法逐一批改</td>
+            <td>① <strong>任务清单化</strong>——学生照单自学，不依赖老师在场；② <strong>AI 助教前置答疑</strong>——学生先问免费大模型，带着"仍不懂的点"来找老师；③ <strong>学生自治</strong>——设"小教官"轮值；④ <strong>异步验收</strong>——交 3 分钟录屏 + 代码仓库链接。<strong>老师的交互全部安排在工作日，不占用老师周末。</strong></td>
+          </tr>
+          <tr>
+            <td><strong>周期长达三个月</strong></td>
+            <td>中途松劲、节奏断裂、后期赶工</td>
+            <td><strong>用固定周节律对抗疲劳</strong>：周一至周四"学 + 1 题"，周五"清账 + 实践/测评"，周末休息。每 3 周一个阶段，每阶段末的周五做一次限时测评，把长期目标切成 4 个可见的台阶。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note ok">
+      <strong>一句话原则：</strong>老师不负责"讲完所有知识"，只负责<strong>定标准、给清单、断关键点、验结果</strong>；学员不追求"学得多"，只要做到<strong>每天不断更</strong>。三个月的胜负手是持续性，不是强度。
+    </div>
+
+    <div class="note warn">
+      <strong>关于题量为什么能减：</strong>原方案每天 2 题 + 周末加练，12 周会累积到 100 题以上，对零基础学员是明显的过载。本版压减到每天 1 题（约 55–60 题），但配套两个"增量"：① <strong>错题重做</strong>（每周五重做本周错题，实际编码遍数不减）；② <strong>项目实战</strong>（每阶段至少 1 个完整交付物，其编码量远超题目）。结果是<strong>题少了，写代码的时间没少，但心理负担显著降低</strong>。
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 01 ══════════ -->
+<section id="s1">
+  <h2 class="sec">01 · 体系总览与每日节律</h2>
+  <p class="sec-sub">纵向是能力进阶（四阶段 × 3 周），横向是每个训练日的固定动作（四模块）。节律固定下来，学员就不需要靠意志力坚持。</p>
+
+  <h3>一周节律表（周一至周五有任务，周末休息）</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width:14%">时间</th><th style="width:22%">主要动作</th><th style="width:26%">内容</th><th>时长与要求</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="nowrap"><strong>周一</strong></td><td>知识学习 + 1 题</td>
+          <td>本周新知识第 1 节 + 基础题 1 道</td><td>学习 40 min + 题目 30 min + 笔记 10 min</td>
+        </tr>
+        <tr>
+          <td class="nowrap"><strong>周二</strong></td><td>知识学习 + 1 题</td>
+          <td>第 2 节 + 基础题 1 道</td><td>同上</td>
+        </tr>
+        <tr>
+          <td class="nowrap"><strong>周三</strong></td><td>知识学习 + 1 题</td>
+          <td>第 3 节 + 应用题 1 道</td><td>同上；<strong>周三为"清零时段"</strong>，补前两天的欠账，不新增内容</td>
+        </tr>
+        <tr>
+          <td class="nowrap"><strong>周四</strong></td><td>知识学习 + 1 题</td>
+          <td>第 4 节 + 应用题 1 道</td><td>同上</td>
+        </tr>
+        <tr style="background:#f7f4ff;">
+          <td class="nowrap"><strong>周五</strong></td><td><strong>清账日 + 实践/测评</strong></td>
+          <td>本周知识小结 + 重做本周错题 + 项目实战 / 限时测评（每 3 周一次）</td><td>60–90 min。<strong>本周清账在此收口</strong>，不留尾巴到周末</td>
+        </tr>
+        <tr style="background:#fafbfe;">
+          <td class="nowrap"><strong>周六 / 周日</strong></td><td><strong>休息</strong></td>
+          <td>不布置任务、不打卡、不催交</td><td><strong>0 任务</strong>。自愿加练不加分、不记录</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>四大模块总览</h3>
+  <div class="mods">
+    <div class="mod m1">
+      <span class="tag">模块一 · 一次性 + 阶段升级</span>
+      <h4>软件安装</h4>
+      <ul>
+        <li>本地：Python、VS Code、pip 国内镜像</li>
+        <li>云端：AI Studio / 魔搭 / 天池（免费算力）</li>
+        <li>按阶段解锁：Git（S2）、标注工具（S3）、Gradio（S4）</li>
+        <li>统一安装手册 + 常见报错速查</li>
+      </ul>
+    </div>
+    <div class="mod m2">
+      <span class="tag">模块二 · 工作日每天 40 min</span>
+      <h4>知识学习</h4>
+      <ul>
+        <li>主线：菜鸟教程 + 官方中文文档</li>
+        <li>视频：B 站免费课 / 中国大学 MOOC</li>
+        <li>方法：看 → 敲 → 改 → 讲 → 记</li>
+        <li>每天 3–5 行学习笔记，只学一小节</li>
+      </ul>
+    </div>
+    <div class="mod m3">
+      <span class="tag">模块三 · 工作日每天 1 题</span>
+      <h4>日常题目训练</h4>
+      <ul>
+        <li>题库分层：洛谷新手村 / 牛客 / LeetCode 中国</li>
+        <li><strong>每天仅 1 题</strong>（约 30 min 收工）</li>
+        <li>错题本强制登记，周五集中重做</li>
+        <li>周榜只看"完成率"，不比题量</li>
+      </ul>
+    </div>
+    <div class="mod m4">
+      <span class="tag">模块四 · 每周五 1 次</span>
+      <h4>技能拔高</h4>
+      <ul>
+        <li>专题攻关（正则、pandas 进阶、爬虫）</li>
+        <li>项目实战（每阶段 1 个完整交付物）</li>
+        <li>限时测评（每 3 周一次，共 4 次）</li>
+        <li>复盘归档 + 真题拆解</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>能力进阶主线（四阶段 × 3 周）</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th style="width:14%">阶段</th><th style="width:10%">周次</th><th style="width:24%">能力目标</th><th style="width:24%">关键跃迁</th><th>阶段交付物</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="lv b">S1 语法筑基</span></td><td class="nowrap">第 1–3 周</td>
+          <td>能读懂并写出 200 行以内的程序</td>
+          <td>从"不懂代码"到"敢写、能跑通"</td>
+          <td>成绩管理小程序 + 阶段一测评（60 min）</td>
+        </tr>
+        <tr>
+          <td><span class="lv a">S2 数据与算法</span></td><td class="nowrap">第 4–6 周</td>
+          <td>用 pandas 处理万行级表格；掌握基础算法套路</td>
+          <td>从"写脚本"到"处理数据"</td>
+          <td>脏数据清洗分析报告 + 阶段二测评（90 min）</td>
+        </tr>
+        <tr>
+          <td><span class="lv c">S3 全链路 + 训练师</span></td><td class="nowrap">第 7–9 周</td>
+          <td>独立完成采集→清洗→标注→质检闭环</td>
+          <td>从"处理数据"到"生产数据"</td>
+          <td>自建数据集 + 数据标注手册 + 质检报告 + 阶段三测评（120 min）</td>
+        </tr>
+        <tr>
+          <td><span class="lv d">S4 实战与竞赛</span></td><td class="nowrap">第 10–12 周</td>
+          <td>完成全流程项目并接受限时竞赛检验</td>
+          <td>从"会做"到"限时做对、能讲清"</td>
+          <td>完整项目（含演示页面）+ 决赛成绩 + 梯队名单</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note rest">
+    <strong>周末规则（三条，请在群里明确公示）：</strong>① 周五放学前必须完成本周清账，<strong>不留任务过周末</strong>；② 周末群里不发学习通知、不晒进度、不发周榜；③ 自愿加练的同学，成果可以分享，但<strong>不计入考核、不影响排名</strong>——避免"自愿"变成隐性压力。
+  </div>
+</section>
+
+<!-- ══════════ 02 ══════════ -->
+<section id="s2">
+  <h2 class="sec">02 · 四阶段训练体系（核心内容）</h2>
+  <p class="sec-sub">每个阶段 3 周，内部节奏统一为"第 1–2 周学与练、第 3 周综合与测评"。每阶段按统一结构展开：<strong>核心知识点（语法基础 / 数据与算法 / 竞赛常用库）→ 训练方式（系统课程 / 刷题训练 / 项目实战 / 模拟竞赛）→ 练习目标 → 能力评估标准 → 教师检查点</strong>。</p>
+
+  <!-- ── S1 ── -->
+  <div class="stage s1">
+    <div class="stage-head">
+      <div class="badge">S1</div>
+      <div>
+        <h3>语法筑基与计算思维</h3>
+        <div class="when">第 1–3 周 ｜ 目标：从"零"到"敢写、能跑通" ｜ 累计 15 题 ｜ 第 3 周周五测评（60 min）</div>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th style="width:17%">维度</th><th>具体内容</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>语法基础</strong></td>
+              <td>环境与 IDE 使用；变量与数据类型（int / float / str / bool / list / tuple / dict / set）；运算符与优先级；<code>input()</code> 与 <code>print()</code>、f-string 格式化；<code>if / elif / else</code>；<code>while</code> / <code>for</code> / <code>range</code> / <code>break</code> / <code>continue</code>；字符串常用方法；列表增删改查与切片；字典键值操作与遍历；函数定义、参数、返回值、作用域；模块与 <code>import</code>；文件读写（txt / csv）；<code>try / except</code> 异常处理；类与对象（<strong>只需看懂，不要求独立设计</strong>）。<br><em>因本阶段有 3 周，语法可学得更扎实，不赶进度：第 1 周数据类型与控制流、第 2 周容器与字符串、第 3 周函数与文件。</em></td>
+            </tr>
+            <tr>
+              <td><strong>数据与算法</strong></td>
+              <td>遍历与累加、计数与统计、最大值/最小值定位、字符串分割与拼接；线性查找；冒泡排序思路（会写更好，不会先理解过程）；时间复杂度直观感受（100 万次循环有多慢）。此阶段<strong>不追求算法深度</strong>，重点是"能遍历、能判断、能拆分问题"。</td>
+            </tr>
+            <tr>
+              <td><strong>竞赛常用库</strong></td>
+              <td><code>math</code>、<code>random</code>、<code>datetime</code>、<code>csv</code>、<code>os</code>、<code>re</code>（入门：查找替换）。</td>
+            </tr>
+            <tr>
+              <td><strong>系统课程</strong></td>
+              <td>主线：菜鸟教程 Python3（每天 1 小节，不贪多）+ Python 官方中文文档对应章节。视频：B 站免费入门课（每天 1 节，1.5 倍速，<strong>看一节必须跟着敲一节</strong>）。可选：中国大学 MOOC《Python 语言程序设计》免费注册学习。</td>
+            </tr>
+            <tr>
+              <td><strong>刷题训练</strong></td>
+              <td>每周 5 题（周一至周五每天 1 题）：洛谷"新手村 / 官方题单 · 入门"与牛客"Python 入门"交替。<strong>硬性规则：每题先自己写 15 分钟，再看题解，看完合上题解重写一遍。</strong>错题记入错题本（题目链接 + 我当时怎么想的 + 正确思路 + 用到的语法点），周五集中重做本周错题。</td>
+            </tr>
+            <tr>
+              <td><strong>项目实战</strong></td>
+              <td>第 3 周周五实践日：<strong>学生成绩管理小程序</strong>（约 120–200 行）。功能：从 CSV 读入成绩 → 计算总分/均分/排名 → 按条件筛选（如不及格名单）→ 输出统计结果到新 CSV。要求：拆成至少 4 个函数、有注释、命名见名知义。未完成的同学可在下周周一课前补交，<strong>不占用周末</strong>。</td>
+            </tr>
+            <tr>
+              <td><strong>模拟竞赛</strong></td>
+              <td>第 3 周周五：<strong>阶段一测评</strong>，60 分钟 10 道基础题（洛谷/牛客组卷），允许查语法不给查题解。目的不是分高，而是<strong>暴露"看会了但写不出"的真实差距</strong>。</td>
+            </tr>
+            <tr>
+              <td><strong>练习目标</strong></td>
+              <td>① 能独立写出含函数、循环、条件、文件读写的 200 行以内程序；② 基础题正确率达到 70% 以上；③ 遇到报错能读懂报错信息并自主定位（Red → 看最后一行 → 定位行号）。</td>
+            </tr>
+            <tr>
+              <td><strong>能力评估标准</strong></td>
+              <td>
+                <span class="stars">★★★★★</span> <strong>优秀</strong>：60 分钟 9–10 题正确，代码规范、有函数抽象，能主动优化重复代码。<br>
+                <span class="stars">★★★★☆</span> <strong>良好</strong>：60 分钟 7–8 题正确，能独立完成小程序并解释每一行。<br>
+                <span class="stars">★★★☆☆</span> <strong>合格</strong>：60 分钟 5–6 题正确，小程序可运行但需少量提示。<br>
+                <span class="stars">★★☆☆☆</span> <strong>待补</strong>：&lt;5 题，语法错误频繁 → 周三"清零时段"集中补，第 4 周并行复习。<br>
+                <em>另设硬指标：语法小测 ≥ 80 分；作品必须能成功运行并输出正确结果；15 题完成率 ≥ 90%。</em>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <strong>教师检查点（每处 ≤ 10 分钟，均在周五）：</strong>① 第 1 周五：抽 3 名学员，让其在共享屏幕下现场改一行代码并解释；② 第 3 周五：只看两样东西——小程序能不能跑、错题本有没有 10 条以上。累计缺勤打卡超过 3 天的学员，私信一次，不批评，只问"卡在哪一步"。
+      </div>
+    </div>
+  </div>
+
+  <!-- ── S2 ── -->
+  <div class="stage s2">
+    <div class="stage-head">
+      <div class="badge">S2</div>
+      <div>
+        <h3>数据结构算法 × 数据处理三件套</h3>
+        <div class="when">第 4–6 周 ｜ 目标：从"写脚本"到"处理数据" ｜ 累计 15 题 ｜ 第 6 周周五测评（90 min）</div>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="note">
+        <strong>本阶段是整个体系的分水岭。</strong>第 4 周算法打底，第 5 周进入 numpy 与可视化，第 6 周主攻 pandas 并完成第一个数据分析项目。<strong>pandas 不过关，后面的数据采集与标注都无从谈起</strong>，因此这三周不安排额外专题，全部精力给 pandas。
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th style="width:17%">维度</th><th>具体内容</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>语法基础</strong></td>
+              <td>列表推导式、切片进阶、字典嵌套与遍历技巧、集合去重与运算；<code>sorted(key=…)</code> 与 <code>lambda</code>、<code>enumerate</code>、<code>zip</code>、可变/不可变与深浅拷贝；异常处理进阶（自定义异常、<code>finally</code>）；模块化与 <code>if __name__ == "__main__"</code>。</td>
+            </tr>
+            <tr>
+              <td><strong>数据与算法</strong></td>
+              <td>栈与队列（用 <code>collections.deque</code>）、二分查找、冒泡/选择/插入排序实现与对比、前缀和、双指针、哈希计数（Top-K 问题）；递归入门（阶乘/斐波那契/汉诺塔）；简单动态规划思想（爬楼梯、最大子段和）。<strong>目标是掌握套路并能套用，不追求竞赛级难度。</strong><br><em>节奏：第 4 周集中攻克算法基础，第 5 周起算法题并入每日 1 题滚动巩固。</em></td>
+            </tr>
+            <tr>
+              <td><strong>竞赛常用库</strong></td>
+              <td><strong>pandas（重点，占本阶段 45% 精力）</strong>：Series/DataFrame、索引与 loc/iloc、条件筛选、缺失值处理、<code>groupby</code> 聚合、<code>merge</code> 多表关联、<code>apply</code>、排序与透视；<strong>numpy</strong>：ndarray、广播、统计与矩阵运算；<strong>可视化</strong>：matplotlib、seaborn、pyecharts（中文标签友好，适合汇报）；<strong>Excel 读写</strong>：openpyxl / pandas；<strong>json</strong> 解析。</td>
+            </tr>
+            <tr>
+              <td><strong>系统课程</strong></td>
+              <td>菜鸟教程 pandas/numpy 章节 + B 站免费 pandas 实战课；和鲸社区（免费）的 pandas 基础项目；算法部分用开源免费教程《Hello 算法》（hello-algo.com，在线可看，中文友好）。</td>
+            </tr>
+            <tr>
+              <td><strong>刷题训练</strong></td>
+              <td>每周 5 题：第 4 周以算法题为主（洛谷"普及−"、LeetCode 中国简单题）；第 5–6 周起改为"2 算法 + 3 数据题"，数据题取自和鲸 / 天池 / 头歌（EduCoder）免费实训。<strong>另增一个小习惯：每天从自己的代码里挑 1 个报错写清原因，存入"报错百科"</strong>——每天只写 3 行，性价比极高。</td>
+            </tr>
+            <tr>
+              <td><strong>项目实战</strong></td>
+              <td>第 6 周周五实践日：<strong>电商销售数据清洗与分析</strong>。给定一份"脏"数据（含缺失值、重复行、日期格式混乱、单位不统一、明显异常值），完成：清洗 → 描述性统计 → 分组对比（按品类/地区/月份）→ 输出 3 张图表 + 200 字结论。要求用 Jupyter Notebook 完成，单元格有文字说明，<strong>报告能被别人复现</strong>。未完成部分下周周一课前补交。</td>
+            </tr>
+            <tr>
+              <td><strong>模拟竞赛</strong></td>
+              <td>第 6 周周五：<strong>阶段二测评</strong>，90 分钟——5 道算法题（40%）+ 1 道数据处理题（60%，给脏数据要求输出清洗后文件与统计表）。刻意设置"数据脏、要求细"的场景，模拟人工智能训练师岗位的真实数据任务。</td>
+            </tr>
+            <tr>
+              <td><strong>练习目标</strong></td>
+              <td>① 能对 1 万行以内的表格数据独立完成清洗 + 分组统计 + 出图；② LeetCode 中国简单题正确率 ≥ 70%；③ 能用 Git 把作业推送到 Gitee 个人仓库（<code>add → commit → push</code> 三板斧）。</td>
+            </tr>
+            <tr>
+              <td><strong>能力评估标准</strong></td>
+              <td>
+                <span class="stars">★★★★★</span> <strong>优秀</strong>：清洗逻辑完整（缺失/重复/异常/格式全覆盖），能主动说明"为什么这样处理"，图表规范有标题轴标签图例。<br>
+                <span class="stars">★★★★☆</span> <strong>良好</strong>：清洗到位，统计正确，图表可读，结论基本合理。<br>
+                <span class="stars">★★★☆☆</span> <strong>合格</strong>：能完成核心清洗与统计，需少量查阅 API。<br>
+                <span class="stars">★★☆☆☆</span> <strong>待补</strong>：分不清"行/列/索引"，groupby 无法独立使用 → 强制进入周三清零时段做 pandas 专项补练。<br>
+                <em>硬指标：算法题正确率 ≥ 70%；数据处理测评 ≥ 60 分；Git 提交成功率 100%；15 题完成率 ≥ 90%。</em>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <strong>教师检查点（≤ 15 分钟，第 6 周周五）：</strong>本阶段最容易"看起来都会、一写就废"。做法是<strong>只抽检一个动作</strong>：随机给一名学员一句需求（"把这张表里每个城市每个月的销售额算出来并按大小排"），要求 5 分钟内写出 <code>groupby</code> 代码。这一招能快速判断真实水平。同时检查 Gitee 仓库是否有 3 次以上提交记录——提交记录就是学习轨迹。
+      </div>
+    </div>
+  </div>
+
+  <!-- ── S3 ── -->
+  <div class="stage s3">
+    <div class="stage-head">
+      <div class="badge">S3</div>
+      <div>
+        <h3>数据采集 · 清洗 · 处理全链路 + 人工智能训练师核心技能</h3>
+        <div class="when">第 7–9 周 ｜ 目标：从"处理数据"到"生产数据" ｜ 累计 15 题 ｜ 第 9 周周五测评（120 min）</div>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="note">
+        <strong>为什么这个阶段最重要：</strong>人工智能训练师国家职业技能标准从<strong>数据采集和处理、数据标注、智能系统运维、业务分析、智能训练、智能系统设计</strong>六个维度定义能力，其中<strong>数据采集与处理、数据标注</strong>正是五级/四级（初级工、中级工）的核心工作内容，也是所有竞赛选手的起跑线。竞赛实操环节（占 80%）几乎全部围绕这条链路出题。<br>
+        <strong>节奏：</strong>第 7 周采集、第 8 周清洗、第 9 周标注与质检 + 阶段性测评。
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th style="width:17%">维度</th><th>具体内容</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>数据采集</strong></td>
+              <td>HTTP 基础（请求方法、状态码、请求头、Cookie）；<code>requests</code> 发请求与参数/分页处理；HTML 结构解析：<code>BeautifulSoup</code> / <code>lxml</code>、CSS 选择器与 XPath；<code>re</code> 正则提取；JSON API 调用与循环翻页；数据落盘（CSV / Excel / JSON）；<code>time.sleep</code> 限速与 robots 协议基本礼节；动态页面了解 Selenium / Playwright；Scrapy 框架（选学，不要求掌握）。</td>
+            </tr>
+            <tr>
+              <td><strong>数据清洗</strong></td>
+              <td>缺失值——删除 / 均值中位数众数填充 / 前后向填充 / 插值，并能说明适用场景；重复值识别与去重（含"业务重复"，如手机号后四位相同）；异常值——箱线图 / 3σ / IQR 判定与处理策略；类型与格式统一（日期、金额、单位、地区名、编码 utf-8/gbk 乱码修复）；文本清洗（去 HTML 标签、去表情、去多余空白、停用词、<code>jieba</code> 分词）；一致性校验（主键唯一、取值范围、跨字段逻辑如"离店日期 ≥ 入住日期"）。</td>
+            </tr>
+            <tr>
+              <td><strong>数据处理</strong></td>
+              <td>特征衍生（从日期拆年月日星期、从地址拆省市区、从金额算客单价）；分箱与离散化；数值归一化 / 标准化；类别编码（独热 / 标签编码）；时间序列重采样与滚动统计；多表关联与拉宽；分组聚合与透视；<strong>产出数据质量报告</strong>（问题清单 + 处理方式 + 影响说明）。</td>
+            </tr>
+            <tr>
+              <td><strong>训练师专项<br>（数据标注）</strong></td>
+              <td>① 标注规范制定：写一份《数据标注手册》——标注目标、标签定义与边界示例（正例/反例各 3 条）、遇到歧义怎么办、交付格式；② 工具实操：图像标注 labelme / X-AnyLabeling / Label Studio（拉框、多边形、关键点）、文本标注 doccano / Label Studio（分类、实体）；③ 标注质检：抽取 10%–20% 复核，计算<strong>标注一致率 / Kappa 系数</strong>、准确率召回率，输出返工清单；④ 数据集工程：训练/验证/测试集划分、命名规范、版本管理（v1 / v1.1 变更说明）、标注统计报告。</td>
+            </tr>
+            <tr>
+              <td><strong>竞赛常用库</strong></td>
+              <td><code>requests</code>、<code>bs4</code>、<code>lxml</code>、<code>re</code>、<code>pandas</code>、<code>numpy</code>、<code>openpyxl</code>、<code>jieba</code>、<code>scikit-learn</code>（预处理模块）、标注工具（labelme / Label Studio）、数据源平台（天池 / Kaggle / 和鲸 / 百度 AI Studio 数据集）。</td>
+            </tr>
+            <tr>
+              <td><strong>系统课程</strong></td>
+              <td>菜鸟教程 requests / BeautifulSoup 章节；B 站免费爬虫入门课（<strong>只跟 1 套</strong>，避免多头学习）；和鲸社区"数据清洗实战"免费项目；<strong>国家职业技能标准原文</strong>——教师转发电子版，让学员知道"未来考什么"。</td>
+            </tr>
+            <tr>
+              <td><strong>刷题训练</strong></td>
+              <td>每周 5 题：第 7 周为"3 爬虫小任务 + 2 算法题"（每天 1 个网页小目标：标题列表 / 商品价格 / 天气数据，从静态到分页）；第 8 周为数据清洗专项题（和鲸 / 头歌免费实训关卡）；第 9 周为标注规范理解题 + <strong>SQL 入门 2 题</strong>（牛客或 LeetCode 中国数据库免费题，训练师岗位数据查询能力必备）。</td>
+            </tr>
+            <tr>
+              <td><strong>项目实战</strong></td>
+              <td><strong>项目 A｜自建数据集</strong>（第 7 周）：从 2 类以上来源（网页抓取 + 公开数据集/API）汇总 1000 条以上数据，输出结构化 CSV。<br>
+                  <strong>项目 B｜"脏数据急诊室"</strong>（第 8 周）：交换清洗——把自己的脏数据给同学清洗，验收别人的成果，换位理解数据质量。<br>
+                  <strong>项目 C｜标注实战</strong>（第 9 周）：图像或文本标注 300 条以上，自写标注手册，自行质检，产出标注一致性与质量报告。</td>
+            </tr>
+            <tr>
+              <td><strong>模拟竞赛</strong></td>
+              <td>第 9 周周五：<strong>阶段三测评</strong>，120 分钟——<strong>模拟人工智能训练师赛项</strong>：理论 20%（数据采集合规、标注概念、数据质量、基础算法概念）+ 实操 80%（采集→清洗→标注→质检→统计报告，全流程一气呵成）。按真实竞赛规则：限时、禁用搜索题解、提交结构化成果文件。</td>
+            </tr>
+            <tr>
+              <td><strong>练习目标</strong></td>
+              <td>① 能独立把一个网站/API 的数据采集下来（500 条以上）并落成规范表格；② 能对给定脏数据写出可复现的清洗脚本并输出质量报告；③ 能独立完成一次标注任务并做质检；④ 能说清"标注手册里每一条规则为什么这么定"。</td>
+            </tr>
+            <tr>
+              <td><strong>能力评估标准</strong></td>
+              <td>
+                <span class="stars">★★★★★</span> <strong>优秀</strong>：采集脚本可复用（封装成函数/类）、有异常与限速处理；清洗覆盖率 100%、有处理依据说明；标注一致率 ≥ 95%（Kappa ≥ 0.8）；报告含图表、结论、局限。<br>
+                <span class="stars">★★★★☆</span> <strong>良好</strong>：三块交付物齐全，清洗正确，标注一致率 85%–95%，报告结构完整。<br>
+                <span class="stars">★★★☆☆</span> <strong>合格</strong>：能跑通全流程，清洗有遗漏（如未处理异常值），标注一致率 75%–85%，报告偏简。<br>
+                <span class="stars">★★☆☆☆</span> <strong>待补</strong>：采集失败或依赖他人改代码；标注无规范 → 重做标注手册，第 10 周前半周补课。<br>
+                <em>硬指标：数据准确率（抽查）≥ 98%；数据标注一致率 ≥ 85%；质量报告必须可复现（换台电脑能跑出同样结果）。</em>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <strong>教师检查点（≤ 20 分钟，第 9 周周五，本阶段只做一次深度检查）：</strong>随机挑一名学员的仓库，做三件事——① 换个目录重新跑一遍他的清洗脚本（能不能跑通）；② 问他"这条数据你为什么这么处理"（有没有依据）；③ 打开他的标注文件抽查 10 条（标注质量）。<strong>能通过这三关的学员，基本具备进入校队备赛的水平。</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── S4 ── -->
+  <div class="stage s4">
+    <div class="stage-head">
+      <div class="badge">S4</div>
+      <div>
+        <h3>项目实战与竞赛模拟（梯队成型）</h3>
+        <div class="when">第 10–12 周 ｜ 目标：从"会做"到"限时做对、能讲清" ｜ 累计 12 题 ｜ 第 12 周周五决赛（150 min + 答辩）</div>
+      </div>
+    </div>
+    <div class="stage-body">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th style="width:17%">维度</th><th>具体内容</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>语法与工程规范</strong></td>
+              <td>项目结构（data / src / notebooks / output / README）；<code>requirements.txt</code> 环境说明；日志打印与异常兜底；随机种子固定（可复现）；代码复用与函数封装；Git 分支与提交规范；<strong>成果表达</strong>：README 写清"做了什么 / 怎么跑 / 结果如何 / 遇到什么问题怎么解决"。</td>
+            </tr>
+            <tr>
+              <td><strong>数据与算法<br>（训练师进阶）</strong></td>
+              <td>从数据到模型：<code>scikit-learn</code> 分类 / 回归 / 聚类入门；评价指标——准确率、精确率、召回率、F1、混淆矩阵；过拟合与训练集/验证集划分；<strong>模型训练记录表</strong>（参数组合 → 指标结果，训练师的日常台账）；模型对比与择优；模型测试与效果跟踪（对应标准中的"智能训练"与"性能测试跟踪"）。</td>
+            </tr>
+            <tr>
+              <td><strong>竞赛常用库</strong></td>
+              <td><code>scikit-learn</code>、<code>matplotlib</code> / <code>pyecharts</code>（结果可视化）、<code>streamlit</code> / <code>Gradio</code>（免费做可点击的演示界面）、ModelScope 魔搭 / 飞桨 PaddleHub（<strong>零基础友好，直接微调现成模型</strong>）、免费算力平台（百度 AI Studio / 阿里云天池 DSW / 魔搭 Notebook / Kaggle Notebook）。</td>
+            </tr>
+            <tr>
+              <td><strong>系统课程</strong></td>
+              <td>scikit-learn 官方中文文档 + 菜鸟教程机器学习章节；百度 AI Studio / 魔搭的免费入门课程与 Notebook 项目；Datawhale 开源学习资料（免费、中文、偏实战，适合梯队长期使用）。</td>
+            </tr>
+            <tr>
+              <td><strong>刷题训练</strong></td>
+              <td>每周 4 题（较前三阶段再减 1 题，把时间让给项目）：从"刷题量"转向"刷题质量"——每题必须写<strong>解题思路 + 复杂度分析</strong>；每周做 1 次"同类型题归纳"（如把这周所有字符串题放一起，总结套路）。数据类任务转向真实数据集（天池 / Kaggle 入门赛数据集）。</td>
+            </tr>
+            <tr>
+              <td><strong>项目实战<br>（三选一或二选二）</strong></td>
+              <td>
+                <strong>A｜电商评论情感分析</strong>：采集评论 → 清洗去噪分词 → 标注 300 条情感标签 → 训练 Baseline 分类模型 → 输出可视化结论报告 + 可点击演示页面。<br>
+                <strong>B｜校园图像分类小助手</strong>：采集/拍摄图片 → 标注 → 用现成模型微调 → Gradio 做一个"上传图片就给结果"的网页。<br>
+                <strong>C｜开放数据洞察报告</strong>：从政府开放数据平台/国家统计局取数 → 清洗 → 多维分析 → 输出一份可对外宣讲的洞察报告。<br>
+                <em>共同要求：全流程留痕（采集脚本、清洗脚本、标注文件、训练记录、报告），README 能让陌生人跑通。第 10 周启动、第 11 周中期检查、第 12 周收口。</em>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>模拟竞赛</strong></td>
+              <td>第 12 周周五：<strong>决赛</strong>，150 分钟全流程实操（理论 20% + 实操 80%）+ <strong>5 分钟答辩</strong>（讲清方案、依据、结果、改进）。教师或高年级学员任评委，按真实评分表打分。<br>另安排：第 10–11 周在周五实践日穿插<strong>真题拆解</strong>——对照往届人工智能训练师赛项 / 全国人工智能应用技术技能大赛技术文件，用官方评分表给自己打分。</td>
+            </tr>
+            <tr>
+              <td><strong>练习目标</strong></td>
+              <td>① 在 150 分钟内独立完成一次完整数据项目；② 能对着评委讲清"我做了什么、为什么这么做、结果如何、还有什么问题"；③ 团队协作可分工（采集/清洗/标注/训练/汇报）。</td>
+            </tr>
+            <tr>
+              <td><strong>能力评估标准</strong></td>
+              <td>
+                <span class="stars">★★★★★</span> <strong>优秀（核心梯队）</strong>：全流程独立完成，模型指标有 Baseline 对比，演示页面可用，答辩逻辑清晰能回应质疑。<br>
+                <span class="stars">★★★★☆</span> <strong>良好（备赛梯队）</strong>：全流程基本独立，个别环节需查阅资料，报告与答辩完整。<br>
+                <span class="stars">★★★☆☆</span> <strong>合格（储备梯队）</strong>：能完成主要环节，需协作支持，明显流程性失误 ≤ 2 处。<br>
+                <span class="stars">★★☆☆☆</span> <strong>待补</strong>：无法独立完成闭环 → 进入下一轮强化循环，重点补 S2–S3 短板。<br>
+                <em>综合评分 = 四次阶段测评平均 30% + 项目作品 40% + 决赛成绩 30%。≥ 80 分进核心梯队，60–79 分进储备梯队，&lt; 60 分进入下一轮循环。</em>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note ok">
+        <strong>本阶段真正的产出不是项目，而是人。</strong>三个月结束时，应形成三支可区分使用的队伍：<strong>核心梯队</strong>（主攻竞赛，2–4 人）、<strong>储备梯队</strong>（候补与协作，4–8 人）、<strong>基础班</strong>（继续培养，下一轮当"小教官"）。梯队不是一次筛选，而是持续循环——基础班学员下一轮就是最有效的助教。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 03 ══════════ -->
+<section id="s3">
+  <h2 class="sec">03 · 十二周逐周执行日程</h2>
+  <p class="sec-sub">每一行都是学员可自查、老师可抽查的清单。所有任务落在周一至周五，<strong>周末栏位空缺——那是故意留白的</strong>。</p>
+
+  <div class="timeline">
+    <!-- S1 -->
+    <div class="tl-row t1">
+      <div class="tl-week">第 1 周<small>S1 · 起步</small></div>
+      <div class="tl-content">
+        <h4>跑通第一个程序，建立"我能行"的体验</h4>
+        <p><strong>安装：</strong>Python 3.11+、VS Code、配置清华 pip 镜像；注册 Gitee、洛谷、牛客、和鲸、百度 AI Studio 账号（一次配齐，避免反复折腾）。</p>
+        <p><strong>学习：</strong>变量、数据类型、输入输出、条件判断。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（洛谷新手村）。</p>
+        <p><strong>周五实践日：</strong>把本周代码整理进 Gitee 仓库（首次提交）+ 20 分钟小测。</p>
+        <div class="chips"><span class="hi">交付：安装截图 · 5 题记录 · Gitee 首次提交</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t1">
+      <div class="tl-week">第 2 周<small>S1</small></div>
+      <div class="tl-content">
+        <h4>容器与字符串：开始能处理"一批数据"</h4>
+        <p><strong>学习：</strong>循环（for / while）、列表与字典、字符串方法。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题。</p>
+        <p><strong>周五实践日：</strong>本周错题集中重做 + 每人 3 分钟讲一道题（讲不出来说明没学会）。</p>
+        <div class="chips"><span class="hi">交付：错题本 10 条以上 · 讲题记录</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t1">
+      <div class="tl-week">第 3 周<small>S1 · 测评</small></div>
+      <div class="tl-content">
+        <h4>函数与文件：写出第一个完整小程序</h4>
+        <p><strong>学习：</strong>函数定义与参数、文件读写 CSV、异常处理。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（累计 15 题）。</p>
+        <p><strong>周五实践日：</strong><strong>阶段一测评</strong>（60 分钟 10 题）+ 启动「学生成绩管理小程序」。</p>
+        <div class="chips"><span class="hi">交付：小程序源码</span><span class="test">阶段一测评成绩</span></div>
+      </div>
+    </div>
+
+    <!-- S2 -->
+    <div class="tl-row t2">
+      <div class="tl-week">第 4 周<small>S2 · 算法</small></div>
+      <div class="tl-content">
+        <h4>掌握最基本的算法套路</h4>
+        <p><strong>学习：</strong>列表推导、sorted / key / lambda、二分查找、双指针、前缀和、递归入门。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（以算法题为主）。</p>
+        <p><strong>周五实践日：</strong>算法专题训练（讲 3 类套路）+ 小程序验收。</p>
+        <div class="chips"><span class="hi">交付：小程序验收通过 · 算法套路笔记</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t2">
+      <div class="tl-week">第 5 周<small>S2</small></div>
+      <div class="tl-content">
+        <h4>进入数值与图形：数据可以"看"了</h4>
+        <p><strong>学习：</strong>numpy 数组与广播、matplotlib 基础绘图、json 与文件格式。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（2 算法 + 3 数据题）。</p>
+        <p><strong>周五实践日：</strong>正则表达式专题（10 个小练习：提取手机号、日期、价格）。</p>
+        <div class="chips"><span class="hi">交付：正则练习集 · 报错百科 5 条</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t2">
+      <div class="tl-week">第 6 周<small>S2 · 测评</small></div>
+      <div class="tl-content">
+        <h4>本周是三个月里最关键的一周：pandas 决定后面能不能走</h4>
+        <p><strong>学习：</strong>pandas 索引/筛选/groupby/merge/缺失值处理；seaborn / pyecharts 可视化；Git 入门（clone / add / commit / push）。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（以数据题为主，累计 30 题）。</p>
+        <p><strong>周五实践日：</strong><strong>阶段二测评</strong>（90 分钟：算法 40% + 数据处理 60%）；启动电商数据清洗分析报告（下周周一课前补交）。</p>
+        <div class="chips"><span class="hi">交付：分析报告（含 3 张图）</span><span class="test">阶段二测评成绩</span><span class="hi">Git 提交 3 次以上</span></div>
+      </div>
+    </div>
+
+    <!-- S3 -->
+    <div class="tl-row t3">
+      <div class="tl-week">第 7 周<small>S3 · 采集</small></div>
+      <div class="tl-content">
+        <h4>从"下载数据"升级到"自己采集数据"</h4>
+        <p><strong>安装：</strong>requests / bs4 / lxml / jieba；注册 Label Studio 或安装 labelme。</p>
+        <p><strong>学习：</strong>HTTP 基础、requests 请求与分页、BeautifulSoup 解析、CSS 选择器/XPath、JSON 接口调用、限速与 robots 礼节。</p>
+        <p><strong>题目：</strong>每天 1 题（3 个爬虫小任务 + 2 道算法题），本周 5 题。</p>
+        <p><strong>周五实践日：</strong>采集脚本互查 + 提交规范培训；同时阅读<strong>人工智能训练师国家职业技能标准原文</strong>，明确考核维度。</p>
+        <div class="chips"><span class="hi">交付：采集脚本 · 500 条数据集</span><span class="hi">标准原文批注笔记</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t3">
+      <div class="tl-week">第 8 周<small>S3 · 清洗</small></div>
+      <div class="tl-content">
+        <h4>数据质量由你负责</h4>
+        <p><strong>学习：</strong>缺失值/重复值处理、异常值判定（箱线图 / IQR / 3σ）、格式与编码统一、文本清洗与 jieba 分词、特征衍生与编码。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（数据清洗专项）。</p>
+        <p><strong>周五实践日：</strong>"脏数据急诊室"——交换清洗，验收同学的成果并给出返工意见。</p>
+        <div class="chips"><span class="hi">交付：数据质量报告 · 返工清单</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t3">
+      <div class="tl-week">第 9 周<small>S3 · 测评</small></div>
+      <div class="tl-content">
+        <h4>训练师核心技能落地：标注与质检</h4>
+        <p><strong>学习：</strong>标注规范制定、labelme / Label Studio 实操、标注质检与一致率（Kappa）计算、训练/验证/测试集划分与版本管理。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 5 题（含 SQL 入门 2 题，累计 45 题）。</p>
+        <p><strong>周五实践日：</strong><strong>阶段三测评</strong>（120 分钟，模拟人工智能训练师赛项：理论 20% + 实操 80%）。</p>
+        <div class="chips"><span class="hi">交付：标注 300 条 · 标注手册 · 质检报告</span><span class="test">阶段三测评成绩</span></div>
+      </div>
+    </div>
+
+    <!-- S4 -->
+    <div class="tl-row t4">
+      <div class="tl-week">第 10 周<small>S4 · 建模</small></div>
+      <div class="tl-content">
+        <h4>把零散能力串成一条能交付的流水线</h4>
+        <p><strong>学习：</strong>scikit-learn 入门（分类/回归）、评价指标（准确率/精确率/召回率/F1）、训练集与验证集划分、模型训练记录表。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 4 题（每题必须写思路与复杂度）。</p>
+        <p><strong>周五实践日：</strong>启动项目 A/B/C + 开工检查（数据是否齐、方案是否可执行）；真题拆解第 1 讲。</p>
+        <div class="chips"><span class="hi">交付：项目 v1 方案 · 数据准备完成</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t4">
+      <div class="tl-week">第 11 周<small>S4 · 推进</small></div>
+      <div class="tl-content">
+        <h4>让成果"能被别人看到"</h4>
+        <p><strong>学习：</strong>Gradio / Streamlit 做演示页面、模型对比与择优、README 与项目结构规范。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 4 题（累计 53 题）。</p>
+        <p><strong>周五实践日：</strong>项目中期检查——跑一遍代码、随机问一个"为什么"；真题拆解第 2 讲 + 答辩表达训练。</p>
+        <div class="chips"><span class="hi">交付：可运行的 demo · Baseline 指标表</span></div>
+      </div>
+    </div>
+
+    <div class="tl-row t4">
+      <div class="tl-week">第 12 周<small>S4 · 决赛</small></div>
+      <div class="tl-content">
+        <h4>用一场比赛为三个月收口，同时完成梯队分层</h4>
+        <p><strong>学习：</strong>答辩结构（3 分钟讲清：做了什么 / 依据 / 结果 / 改进）、按官方评分表自评。</p>
+        <p><strong>题目：</strong>每天 1 题，本周 4 题（复盘型，累计约 57 题）。</p>
+        <p><strong>周五实践日：</strong><strong>决赛</strong>（150 分钟全流程 + 5 分钟答辩）→ 当场公布综合评分与梯队分组，发布下一轮（第 13 周起）训练计划。</p>
+        <div class="chips"><span class="hi">交付：完整项目</span><span class="test">决赛成绩</span><span class="hi">梯队名单与下一轮计划</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note rest">
+    <strong>周末留白是设计，不是遗漏。</strong>上面 12 行里没有"周末"这一栏，因为周末不该有任务。唯一需要提醒学员的是：<strong>如果周五有东西没做完，就在<u>下周周一课前</u>补交，绝不允许"带回家占用周末"</strong>。这条规矩一旦破例，三个月的节奏就会从第一个周末开始崩。
+  </div>
+</section>
+
+<!-- ══════════ 04 ══════════ -->
+<section id="s4">
+  <h2 class="sec">04 · 四大模块实施细则</h2>
+  <p class="sec-sub">模块一装环境、模块二灌知识、模块三练手感、模块四拔高度。四者缺一不可，但权重不同：模块三（日常做题）决定下限，模块四（技能拔高）决定上限。</p>
+
+  <div class="card">
+    <h3 style="margin-top:0">模块一 · 软件安装（一次性完成，按阶段解锁子项）</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th style="width:16%">时间</th><th style="width:28%">安装/注册内容</th><th>要点与避坑</th></tr></thead>
+        <tbody>
+          <tr><td class="nowrap">第 1 周周一（必装）</td><td>Python 3.11+（python.org 官方安装包）</td><td>安装时勾选 <strong>Add Python to PATH</strong>；装完在命令行敲 <code>python --version</code> 验证。<strong>这是零基础最高频卡点。</strong></td></tr>
+          <tr><td class="nowrap">第 1 周周一（必装）</td><td>VS Code + Python 扩展</td><td>比 PyCharm 轻、免费、够用。设置中文字体与自动保存。</td></tr>
+          <tr><td class="nowrap">第 1 周周一（必配）</td><td>pip 国内镜像</td><td>配置清华 TUNA 镜像，避免下载超时——这是"装不上库"的头号原因。</td></tr>
+          <tr><td class="nowrap">第 1 周周一（注册）</td><td>Gitee、洛谷、牛客、和鲸、百度 AI Studio 账号</td><td>统一规则：<strong>用同一邮箱与昵称</strong>，便于老师快速检索学员仓库。</td></tr>
+          <tr><td class="nowrap">第 1 周内（推荐）</td><td>Jupyter Notebook（本地或直接云端）</td><td>数据分析阶段主力工具，云端版本可免安装。</td></tr>
+          <tr><td class="nowrap">第 5 周</td><td>numpy / pandas / matplotlib / seaborn / pyecharts / openpyxl</td><td>一次装齐，用 <code>pip install</code> 加镜像参数，截图留证。</td></tr>
+          <tr><td class="nowrap">第 6 周</td><td>Git（并对接 Gitee 仓库）</td><td>只需 4 条命令：<code>clone / add / commit / push</code>。不要一次教太多。</td></tr>
+          <tr><td class="nowrap">第 7 周</td><td>requests / bs4 / lxml / jieba；Label Studio 或 labelme</td><td>标注工具优先用 <strong>Label Studio</strong>（网页版、免安装、跨平台，适合机房统一使用）。</td></tr>
+          <tr><td class="nowrap">第 10–11 周</td><td>scikit-learn；Gradio 或 Streamlit（二选一）</td><td>无需本地 GPU，模型训练在免费云平台 Notebook 上完成即可。</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note warn">
+      <strong>教师最省力的做法：</strong>不要口头教安装。写一份《环境安装手册》+ 一份"常见报错对照表"（如 <code>python 不是内部或外部命令</code>、<code>pip 超时</code>、<code>ModuleNotFoundError</code>、<code>中文乱码</code>），配 8–10 张截图。学员先自查手册，再问 AI，最后才找老师。<strong>安装环节预计占老师总投入的 40%，必须一次性把手册做出来。</strong>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:18px">
+    <h3 style="margin-top:0">模块二 · 知识学习（工作日每天 40 分钟，五步学习法）</h3>
+    <p><strong>统一学习法：看 → 敲 → 改 → 讲 → 记。</strong>免费课程的最大问题是"看完就忘"，因为缺少"输出"环节。强制要求：</p>
+    <ol class="tight">
+      <li><strong>看：</strong>只看一小节（10 分钟视频或 1 个教程小节），不贪多。</li>
+      <li><strong>敲：</strong>关掉视频，凭记忆把示例代码敲一遍（不许复制粘贴）。</li>
+      <li><strong>改：</strong>故意改一个地方（改变量、换条件、加一列），看结果怎么变——这一步才是真正理解。</li>
+      <li><strong>讲：</strong>用 3 句话把今天学的东西讲给自己或同学听（讲不出来 = 没学会）。</li>
+      <li><strong>记：</strong>写 3–5 行学习笔记存入 Gitee 的 <code>notes</code> 目录（长期积累，也是最好的复习材料）。</li>
+    </ol>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th style="width:22%">学习资源类型</th><th>推荐（均免费）</th></tr></thead>
+        <tbody>
+          <tr><td>图文教程（主线）</td><td>菜鸟教程 Python3（查得快、例子短）；Python 官方中文文档（权威，遇到不确定就查它）；廖雪峰 Python 教程（体系完整，适合进阶回看）。</td></tr>
+          <tr><td>视频课程</td><td>B 站免费入门课（只选 1 套跟到底，切忌多头学习）；中国大学 MOOC 免费课程（有单元作业与讨论区，接近"有平台"的体验）。</td></tr>
+          <tr><td>算法学习</td><td>《Hello 算法》开源免费在线教程（动画直观，中文友好）；洛谷官方题单（按难度分级）。</td></tr>
+          <tr><td>数据科学实训</td><td>和鲸社区免费项目与数据集；百度 AI Studio 免费课程 + 免费算力 Notebook；天池免费学习赛。</td></tr>
+          <tr><td>答疑（AI 助教）</td><td>免费大模型（文心一言、通义千问、Kimi、DeepSeek 等任一）。<strong>使用规范：</strong>必须粘贴自己的代码和完整报错信息，问"为什么错、怎么改"，<strong>禁止直接要完整答案</strong>。</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <strong>为什么是 40 分钟而不是 2 小时：</strong>零基础学员在 40 分钟内对单一知识点的吸收效率最高，超过 1 小时注意力断崖式下降。宁可每天一小节、连续 60 天，也不要"一周突击一次"。<strong>长周期训练的秘诀是每天都能开始，而不是每次都很用力。</strong>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:18px">
+    <h3 style="margin-top:0">模块三 · 日常题目训练（工作日每天 1 题，机制的稳定性比题量重要）</h3>
+    <p><strong>核心机制：每天只做 1 题 + 三层难度选择 + 错题本 + 周五重做。</strong>零基础学员崩溃通常不是因为题难，而是因为<strong>量太大、欠账越滚越多</strong>。所以本版把题量压到每天 1 题：</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th style="width:15%">层级</th><th style="width:24%">适用对象</th><th style="width:28%">题库来源（免费）</th><th>每日要求</th></tr></thead>
+        <tbody>
+          <tr><td><span class="lv b">基础层</span></td><td>第 1–6 周全体；测评 &lt;60 分者</td><td>洛谷新手村 / 牛客 Python 入门 / 菜鸟教程在线编辑器</td><td><strong>1 题</strong>，允许查语法，不允许查题解</td></tr>
+          <tr><td><span class="lv a">进阶层</span></td><td>第 6 周后测评 ≥70 分者</td><td>洛谷普及−、LeetCode 中国简单题、头歌 Python 实训</td><td><strong>1 题</strong> + 写一句解题思路</td></tr>
+          <tr><td><span class="lv c">数据/竞赛层</span></td><td>第 9 周后进入备赛梯队者</td><td>和鲸/天池数据任务、LeetCode 数据库题、Kaggle 入门赛数据集、往届赛题</td><td><strong>1 题</strong>，但必须写处理依据或复杂度</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h4>四条硬规矩</h4>
+    <ul class="tight">
+      <li><strong>每天 1 题，做完即收工。</strong>不允许"今天多做 3 题、明天休息"——连续性比总量重要，多做的部分不额外加分，避免制造攀比压力。</li>
+      <li><strong>15 分钟卡壳法则：</strong>一题先自己钻 15 分钟，超时才能看题解；看完题解必须<strong>合上重写一遍</strong>，否则不计入完成。</li>
+      <li><strong>错题本强制登记：</strong>格式固定为"题目链接 / 我当时怎么想的 / 卡在哪 / 正确思路 / 涉及的语法点"。<strong>每周五集中重做本周错题</strong>，不在周末补。</li>
+      <li><strong>周榜只看完成率，不比题量。</strong>每周一在群里发"上周完成率"一列榜单，公布前 5 名与进步最快 3 名。<strong>不排名刷题数量</strong>，从制度上防止内卷。</li>
+    </ul>
+    <div class="note">
+      <strong>三个月能学到什么：</strong>约 57 道新题 + 每周错题重做（约 180 次编码练习）+ 4 个阶段项目。<strong>题量减半，但编码总次数并没有减少</strong>——因为错题重做和项目实战占掉了主要时间，这才是技能形成的真正来源。
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:18px">
+    <h3 style="margin-top:0">模块四 · 技能拔高（每周五一次，把学员从"会用"拉到"能用"）</h3>
+    <p>四个抓手，按"专题 → 项目 → 模拟赛 → 复盘"的循环推进。<strong>全部安排在周五实践日，用整块时间做需要连续性的任务，避免碎片化影响效果。</strong></p>
+    <div class="mods">
+      <div class="mod m4">
+        <span class="tag">抓手一</span>
+        <h4>专题攻关</h4>
+        <ul>
+          <li>W4 算法套路（排序/二分/双指针）</li>
+          <li>W5 正则表达式</li>
+          <li>W6 pandas 进阶 + Git</li>
+          <li>W7 采集脚本规范</li>
+          <li>W8 数据清洗专项</li>
+          <li>W9 标注与质检</li>
+          <li>W10 scikit-learn 入门</li>
+          <li>W12 答辩表达</li>
+        </ul>
+      </div>
+      <div class="mod m4">
+        <span class="tag">抓手二</span>
+        <h4>项目实战</h4>
+        <ul>
+          <li>每阶段至少 1 个完整交付物</li>
+          <li>S1 成绩管理小程序</li>
+          <li>S2 电商数据清洗分析</li>
+          <li>S3 自建数据集 + 标注手册 + 质检报告</li>
+          <li>S4 全流程项目 + 演示页面</li>
+          <li>必须可复现、有 README</li>
+        </ul>
+      </div>
+      <div class="mod m4">
+        <span class="tag">抓手三</span>
+        <h4>模拟竞赛（4 次）</h4>
+        <ul>
+          <li>W3 周五：60 min 基础题（S1 测评）</li>
+          <li>W6 周五：90 min 算法+数据处理（S2 测评）</li>
+          <li>W9 周五：120 min 模拟训练师赛项（S3 测评）</li>
+          <li>W12 周五：150 min 全流程 + 答辩（决赛）</li>
+          <li>W10–11 穿插真题拆解与自评</li>
+        </ul>
+      </div>
+      <div class="mod m4">
+        <span class="tag">抓手四</span>
+        <h4>复盘归档</h4>
+        <ul>
+          <li>每次赛后当天完成自评（不留到周末）</li>
+          <li>填写"三栏复盘"：做对了什么 / 卡在哪 / 下次怎么改</li>
+          <li>错题与失误点归入个人知识库</li>
+          <li>优秀作品进"梯队作品集"，供下届参考</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note ok">
+      <strong>拔高的真正含义：</strong>不是提前学更难的技术，而是在同样的任务上做到"更快、更规范、能讲清、可复现"。竞赛失分往往不是不会做，而是漏了步骤、格式不对、没按时交。<strong>模拟竞赛的价值就在于把"流程性失误"提前暴露出来。</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 05 ══════════ -->
+<section id="s5">
+  <h2 class="sec">05 · 能力评估与梯队选拔标准</h2>
+  <p class="sec-sub">用五维量表代替"感觉还行"，用一次综合评分完成梯队分层。评估全部可异步完成，全部安排在工作日，不占用老师与学员的周末。</p>
+
+  <h3>五维能力量表（每维 5 级）</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th style="width:16%">维度</th><th style="width:16%">L1 起步</th><th style="width:16%">L2 跟得上</th><th style="width:17%">L3 独立完成</th><th style="width:17%">L4 规范可靠</th><th>L5 可参赛</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>语法与代码能力</strong></td>
+          <td>照抄能跑</td><td>改参数能跑</td><td>独立写 200 行程序</td><td>函数化、命名规范、有注释</td><td>结构清晰、可复用、能给别人讲</td>
+        </tr>
+        <tr>
+          <td><strong>算法与思维</strong></td>
+          <td>看懂题解</td><td>读懂大部分题解并重写</td><td>基础题独立正确率 70%</td><td>能说明复杂度与取舍</td><td>限时条件下稳定发挥</td>
+        </tr>
+        <tr>
+          <td><strong>数据处理</strong></td>
+          <td>会读 CSV</td><td>会筛选与统计</td><td>独立完成清洗 + 出图 + 结论</td><td>处理有依据、结论有支撑</td><td>能设计数据质量规则与校验流程</td>
+        </tr>
+        <tr>
+          <td><strong>数据标注（训练师）</strong></td>
+          <td>知道什么是标注</td><td>能按给定规范标注</td><td>能自写标注手册并执行</td><td>能做质检并计算一致率</td><td>能设计标注方案与返工机制</td>
+        </tr>
+        <tr>
+          <td><strong>工程与竞赛素养</strong></td>
+          <td>文件命名有点乱</td><td>会按要求交作业</td><td>会用 Git 提交、写 README</td><td>项目可复现、留痕完整</td><td>限时交付 + 答辩清楚 + 团队协作</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:13px;color:var(--ink-3);margin-top:8px">建议：<strong>L3 为阶段合格线，L4 为备赛线，L5 为参赛线。</strong>每次阶段测评只评 2–3 个维度，避免评估本身成为负担。</p>
+
+  <h3>四次阶段测评安排（全部在周五）</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width:14%">时间</th><th style="width:16%">时长</th><th style="width:38%">内容</th><th>考察重点</th></tr></thead>
+      <tbody>
+        <tr><td class="nowrap">第 3 周 周五</td><td>60 分钟</td><td>10 道基础语法题</td><td>语法熟练度、能否读懂报错</td></tr>
+        <tr><td class="nowrap">第 6 周 周五</td><td>90 分钟</td><td>5 道算法题 + 1 道数据处理题</td><td>算法套路 + pandas 实操</td></tr>
+        <tr><td class="nowrap">第 9 周 周五</td><td>120 分钟</td><td>模拟人工智能训练师赛项（理论 20% + 实操 80%）</td><td>采集—清洗—标注—质检全链路</td></tr>
+        <tr><td class="nowrap">第 12 周 周五</td><td>150 分钟 + 答辩</td><td>全流程实操 + 5 分钟答辩</td><td>限时交付能力、表达与协作</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>阶段考核方式（三件套，全部异步可查）</h3>
+  <div class="mods">
+    <div class="mod m2">
+      <span class="tag">① 机试</span>
+      <h4>限时实操</h4>
+      <ul><li>在题库/平台上组卷</li><li>系统自动判分，零批改成本</li><li>四次测评取平均，占比 30%</li></ul>
+    </div>
+    <div class="mod m2">
+      <span class="tag">② 作品</span>
+      <h4>项目交付物</h4>
+      <ul><li>代码 + 数据 + 报告 + README</li><li>放在 Gitee 仓库，链接交上来</li><li>占比 40%</li></ul>
+    </div>
+    <div class="mod m2">
+      <span class="tag">③ 讲解</span>
+      <h4>3 分钟录屏</h4>
+      <ul><li>讲思路、依据、踩坑与改进</li><li>看 3 分钟就能判断真实水平</li><li>占比 30%</li></ul>
+    </div>
+  </div>
+
+  <h3>梯队分层与去向</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width:18%">综合评分</th><th style="width:18%">梯队定位</th><th style="width:26%">后续训练重点</th><th>角色安排</th></tr></thead>
+      <tbody>
+        <tr><td><strong>≥ 80 分</strong></td><td><span class="lv a">核心梯队</span></td><td>竞赛真题、限时训练、模型训练与调优、答辩表达</td><td>主攻赛项（如人工智能训练师 S，双人团体赛），承担校队主力</td></tr>
+        <tr><td><strong>60–79 分</strong></td><td><span class="lv b">储备梯队</span></td><td>补齐最弱一维，重复 S3 全链路训练，再完成 1–2 个完整项目</td><td>候补选手、数据标注与采集支持、项目协作</td></tr>
+        <tr><td><strong>&lt; 60 分</strong></td><td><span class="lv c">基础班</span></td><td>回到 S1–S2 重练语法与 pandas，降低难度但不减数量（仍每天 1 题）</td><td>进入下一轮循环，兼任"小教官"（讲过才会）</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">
+    <strong>选拔的两条底线：</strong>① 不看单次成绩，看<strong>12 周的提交连续性</strong>——连续提交 45 天以上的学员，学习能力远高于"三次高分"的学员；② 不只看个人能力，看<strong>愿不愿意帮别人</strong>——竞赛多为团体赛，协作意愿是可培养性最强的信号。
+  </div>
+</section>
+
+<!-- ══════════ 06 ══════════ -->
+<section id="s6">
+    <h2 class="sec">06 · 常用在线平台清单</h2>
+  <p class="sec-sub">本清单已整理为站点独立页面，学生点击即可跳转，便于统一维护与更新。</p>
+  <div class="card">
+    <p>清单共收录 <strong>27 个</strong>站点，按「学习与刷题」「数据与算力」「标注与协作工具」「学院常用」四类整理，每个站点均注明用途与使用建议，第三方平台全部无需学校采购即可使用。</p>
+    <p style="margin-bottom:0"><a class="btn btn-line btn-sm" href="links.html">前往「相关链接」页查看全部网站 →</a></p>
+  </div>
+</section>
+
+<!-- ══════════ 07 ══════════ -->
+<section id="s7">
+  <h2 class="sec">07 · 教师碎片时间操作手册</h2>
+  <p class="sec-sub">把"带 20 个零基础学生三个月"压缩成每天 10 分钟 + 每周五 30 分钟。<strong>所有交互安排在工作日，老师的周末同样完整保留。</strong>关键不是勤奋，而是把不可替代的事留给自己，把可替代的事交出去。</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width:16%">时间颗粒</th><th style="width:20%">场景</th><th style="width:36%">具体动作</th><th>为什么有效</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>每天 10 分钟</strong><br><span style="color:var(--ink-3);font-size:12px">工作日课间 / 午休</span></td>
+          <td>扫一眼进度</td>
+          <td>看腾讯文档收集表：今天谁没打卡（连续 3 天没打卡的私信一次）；在群里回 1–2 个共性问题（优先回多人问过的）。</td>
+          <td>解决 80% 的"卡住就放弃"，且不需要整块时间。</td>
+        </tr>
+        <tr>
+          <td><strong>每周五 30 分钟</strong><br><span style="color:var(--ink-3);font-size:12px">周五实践日</span></td>
+          <td>清账 + 周会</td>
+          <td>10 分钟公布周完成率与本周目标 → 10 分钟讲 1 个"本周最大共性问题"（用小案例）→ 10 分钟自由提问。<strong>不要讲新知识</strong>，新知识交给课程。收尾时确认"本周清账完毕，无遗留"。<br><em>若周五排不开，可提前到周四下午，原则是不推到周末。</em></td>
+          <td>老师只做课程做不到的事：纠偏、激励、答疑；同时把"清账"动作制度化，避免欠账滚到周末。</td>
+        </tr>
+        <tr>
+          <td><strong>每 3 周 20 分钟</strong><br><span style="color:var(--ink-3);font-size:12px">阶段测评后</span></td>
+          <td>异步验收</td>
+          <td>不用开会：学员交"3 分钟录屏 + Gitee 链接"，老师在工作日随时看。抽 3 人做深度检查（跑一遍代码、问一个为什么）。</td>
+          <td>知识型学习必须同步，技能型训练可异步验收——这是省时间的核心。</td>
+        </tr>
+        <tr>
+          <td><strong>一次性 60 分钟</strong><br><span style="color:var(--ink-3);font-size:12px">开训前</span></td>
+          <td>环境手册</td>
+          <td>写一份《环境安装手册 + 常见报错对照表》。</td>
+          <td><strong>投入产出比最高的一件事</strong>：一次性投入，省掉几十次重复答疑。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>三个"外包"机制（把老师的活分出去）</h3>
+  <ul class="tight">
+    <li><strong>AI 助教前置：</strong>学员必须先问免费大模型，问不出来再找老师。附带话术模板："把这段代码和完整报错贴给 AI，问它为什么错、应该查哪个概念。"效果是提问质量显著提升，老师的 10 分钟更有价值。</li>
+    <li><strong>小教官轮值：</strong>每周指定 2 名进度领先的学员做答疑值班（每班次限 1 小时，工作日群内）。奖励是加分 / 优先进入竞赛梯队。<strong>讲一遍胜过学三遍</strong>，对教官本人收益更大。</li>
+    <li><strong>自动化学情统计：</strong>用问卷星打卡 + 腾讯文档收集表，自动汇总成"完成率"一列。老师只看一张表，不做手工统计。<strong>只看完成率不看题量</strong>，避免制造内卷。</li>
+  </ul>
+
+  <div class="note ok">
+    <strong>给老师的一句话：</strong>三个月里，你不需要成为最好的 Python 老师，只需要成为最好的<strong>节奏管理者</strong>——每天确认节奏没断，每周确认标准没降，每三周确认有一批人真的跨过了台阶。<strong>你自己也需要周末，计划里已经把它留出来了。</strong>
+  </div>
+</section>
+
+<!-- ══════════ 08 ══════════ -->
+<section id="s8">
+  <h2 class="sec">08 · 风险预案与合规提醒</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th style="width:20%">风险</th><th style="width:30%">具体表现</th><th>应对措施</th></tr></thead>
+      <tbody>
+        <tr><td><strong>题量悄然反弹</strong></td><td>热心的老师或学员自发加题、加练，周末任务悄悄回来，一个月后又变成过载</td><td>① 把"每天 1 题、周末零任务"写进群公告，作为不可协商的规则；② 周榜<strong>只公示完成率，不公示题量</strong>；③ 老师自己也别在周末发学习材料——制度靠示范维持。</td></tr>
+        <tr><td><strong>网络受限</strong></td><td>在线课程加载慢、云平台打不开、pip 装不上</td><td>① pip 配置国内镜像；② 提前下载 B 站视频/教程离线包到教室电脑；③ 优先选用国内平台（AI Studio、魔搭、和鲸、天池）；④ 机房设"离线资料共享盘"。</td></tr>
+        <tr><td><strong>设备不足</strong></td><td>部分学员没有个人电脑</td><td>① 认知型任务（看课程、标注、刷题）手机上也能完成；② 编码使用机房统一时段 + 云端 Notebook；③ 结对编程：一人操作一人记录，轮流交换。</td></tr>
+        <tr><td><strong>进度落后</strong></td><td>第 6 周（pandas）出现明显分化，后进者放弃</td><td>① 降低难度不减少数量（基础层题库，仍每天 1 题）；② 用好每周三"清零时段"，专门补欠账；③ 允许"合格线"只有 60 分——先跟上，再谈拔高。</td></tr>
+        <tr><td><strong>长周期疲劳</strong></td><td>第 8–10 周动力明显下滑（三个月计划的典型低谷）</td><td>① 每阶段的测评与项目形成"台阶感"，让进步可见；② 第 8 周安排"脏数据急诊室"这类互动性强的活动换换节奏；③ 每周必须有一个"能给别人看"的成果；④ 周末坚决不打扰，让休息真正起到恢复作用。</td></tr>
+        <tr><td><strong>兴趣流失</strong></td><td>中段易弃坑</td><td>① 项目选题贴近学生生活（校园数据、喜欢的领域）；② 徽章/完成率榜/作品集三件套；③ 让学员把作品发到班级群，获得真实反馈。</td></tr>
+        <tr><td><strong>教师时间再次被挤压</strong></td><td>临时任务打断，连续一周无法跟进</td><td>① 提前把 12 周任务清单发给学员，老师缺席也不停摆；② 指定 1 名班长负责打卡与周榜；③ 关键节点只保留 4 个（W3/W6/W9/W12 测评），其余全部异步。</td></tr>
+        <tr><td><strong>学员只学会"要答案"</strong></td><td>AI 直接生成完整代码，学员复制提交</td><td>① 明确规则：交作业必须附"3 分钟录屏讲解"；② 抽查追问"这一行为什么这么写"；③ 鼓励用 AI 解释概念、查报错，禁止用 AI 直接产出交付物。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note warn">
+    <strong>合规与安全提醒（教授数据采集时必须明确）：</strong>
+    <ul class="tight" style="margin-top:8px">
+      <li>抓取前查看目标网站 <code>robots.txt</code> 与服务条款，<strong>不抓取需登录、付费或明确禁止抓取的内容</strong>。</li>
+      <li>控制请求频率（加 <code>time.sleep</code>），不使用高并发压测任何网站。</li>
+      <li><strong>严禁采集、传播涉及个人隐私的数据</strong>（身份证号、手机号、住址、肖像等）；教学中一律使用公开数据集或脱敏数据。</li>
+      <li>标注数据不得使用未经授权的版权素材、涉密材料或涉及国家安全的数据。</li>
+      <li>使用免费平台时，遵守各平台用户协议，不展示、不传播敏感内容。</li>
+    </ul>
+  </div>
+
+  <h3>随附模板（可直接复制使用）</h3>
+  <div class="mods">
+    <div class="mod m1">
+      <span class="tag">模板一</span>
+      <h4>每日打卡表字段</h4>
+      <ul><li>日期 / 姓名 / 今日学习小节</li><li>今日 1 题（题号或链接）</li><li>代码提交链接</li><li>卡住的问题（一句话）</li><li>今日学习时长</li></ul>
+    </div>
+    <div class="mod m2">
+      <span class="tag">模板二</span>
+      <h4>错题本五栏</h4>
+      <ul><li>题目链接</li><li>我当时怎么想的</li><li>卡在哪一步</li><li>正确思路</li><li>涉及语法/库知识点</li></ul>
+    </div>
+    <div class="mod m3">
+      <span class="tag">模板三</span>
+      <h4>项目 README 骨架</h4>
+      <ul><li>项目一句话简介</li><li>数据来源与规模</li><li>运行环境与步骤</li><li>清洗/标注规则说明</li><li>结果与指标</li><li>遇到的问题与改进方向</li></ul>
+    </div>
+    <div class="mod m4">
+      <span class="tag">模板四</span>
+      <h4>赛后三栏复盘</h4>
+      <ul><li>做对了什么（可复制的经验）</li><li>卡在哪（流程失误 / 知识缺口）</li><li>下次怎么改（具体到一个动作）</li></ul>
+    </div>
+  </div>
+</section>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <div class="f-brand">
+          <span class="logo">数信</span>
+          <strong>数字与信息技术产业系</strong>
+        </div>
+        <p>江西赣州技师学院数字与信息技术产业系，承担信息技术类专业教学与公共基础课教学，坚持理实一体、赛训融合。</p>
+      </div>
+      <div>
+        <h4>快速导航</h4>
+        <a href="index.html">首页</a>
+        <a href="index.html#intro">系部简介</a>
+        <a href="index.html#news">新闻动态</a>
+        <a href="links.html">相关链接</a>
+        <a href="training.html">AI 训练体系</a>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <p>地址：江西赣州技师学院双创楼304</p>
+        <p>电话：暂无</p>
+        <p>邮箱：暂无</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> 江西赣州技师学院 数字与信息技术产业系</span>
+      <span>本页训练体系为系部竞赛梯队内部教学安排，如有调整以系部最新通知为准</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="返回顶部">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
